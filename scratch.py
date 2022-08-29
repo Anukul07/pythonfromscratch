@@ -80,8 +80,21 @@ print(guest_list)
 
 
 
+""" cars =['bmw','audi','mercedes']
+cars.sort()
+print(cars)
+cars.sort(reverse=True)
+print(cars) """
+# sorted() function :
+""" cars = ['bmw','audi','mercedes']
+print("Here is the original list:")
+print(cars)
+print("\nHere is the sorted list:" )
+print(sorted(cars, reverse=True))
+print("\nHere is the original list again:")
+print(cars) """
 
-
-
-
- 
+# Printing in reverse order :
+""" cars = ['bmw','audi','mercedes']
+cars.reverse()
+print(cars) """
