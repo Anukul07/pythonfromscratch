@@ -98,3 +98,27 @@ print(cars) """
 """ cars = ['bmw','audi','mercedes']
 cars.reverse()
 print(cars) """
+
+# Finding the length of a list:
+""" 
+cars = ['bmw','audi','mercedes']
+print(len(cars)) """
+
+# 3-8:
+# my_locations = ['Hawai', 'Singapore','Dubai','India']
+""" print(my_locations)
+print(sorted(my_locations))
+print(my_locations)
+print(sorted(my_locations, reverse=True))
+print(my_locations) """
+""" my_locations.reverse()
+my_locations.reverse()
+my_locations.sort(reverse=True)
+print(my_locations) """
+
+# 3-9:
+""" guest_list = ['ram','Hira' , 'Sita' , 'Gita']
+number_guest= len(guest_list)
+print(f"Hello I am invitng {number_guest} people to the party")
+ """
+ 
