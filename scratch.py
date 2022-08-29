@@ -40,3 +40,48 @@ print(popped_motorcycles)
 motorcycles.insert(0, 'Ducati')
 print(motorcycles)
  """
+
+#  popping items from any position in a list
+""" motorcycles = ['Honda', 'Suzuki', 'BMW']
+first_owned = motorcycles.pop(0)
+print(f"The first motorcyle I owned is {first_owned.title()}!")
+print(motorcycles)
+ """
+# Removing an item by value
+""" motorcycles = ['Honda', 'Suzuki', 'BMW']
+motorcycles.remove('Honda')
+print(motorcycles) """
+
+""" motorcycles = ['Honda', 'Suzuki', 'BMW', 'Ducati']
+too_expensive= 'Ducati'
+motorcycles.remove(too_expensive)
+print(f"\nA {too_expensive.upper()} is too expensive for me ") """
+
+# 3-4:3-7 assignments
+
+# guest_list = ['ram','Hira' , 'Sita' , 'Gita']
+""" print(f"I would like to invite {guest_list[1].title()} to dinner!")
+print(f"I would like to invite {guest_list[2].title()} to dinner!")
+print(f"I would like to invite {guest_list[3].title()} to dinner!" """
+""" guest_list[0] = 'Gyan'
+guest_list.append('Raju')
+guest_list.append('Paju')
+guest_list.insert(0, 'Gobinda')
+guest_list.insert(1, 'Ramesh') """
+""" print(guest_list)
+print(f"I would like to invite {guest_list} to the wedding") """
+# person1= guest_list.pop(1)
+# print(f"sorry {person1} that we could not invite you")
+""" del guest_list[0]
+print(guest_list)
+
+ """
+# Sorting a List permanently with the sort() method:
+
+
+
+
+
+
+
+ 
