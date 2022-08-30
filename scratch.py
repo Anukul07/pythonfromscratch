@@ -182,7 +182,41 @@ for player in players[:4]:
     print(player)
  """
 
-#  
+# Copying a list:
+""" my_foods = ['pizza', 'falafel', 'carrot cake']
+friend_foods = my_foods[:]
+print("My favorite foods are:")
+print(my_foods)
+print("\nMy friend's favorite foods are:")
+print(friend_foods) 
+ """
+
+#  4-10:
+""" players = ['Ram','Hira','Sita','Shyam']
+first_three = players[-3:]
+print(f"First three players of the list are:\n{first_three}")
+ """
+
+# 4-11:
+""" pizzas = ['Margherita' , 'Pepporoni', 'Cheese']
+friend_pizzas = pizzas[:]
+
+pizzas.append('Ham')
+friend_pizzas.append('Paprika')
+
+print("My favourite pizzas are:")
+print(pizzas)
+print("\nMy friends favourite pizzas are:")
+print(friend_pizzas)
+ """
+# 4-12
+""" my_foods = ['pizza', 'falafel', 'carrot cake']
+for food in my_foods:
+    print(food)
+for my_fav_food in my_foods:
+    my_fav_food = my_foods[1:]
+print(f"These are my most favourites{my_fav_food}") """
+
 
 
 
