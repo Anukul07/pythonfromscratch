@@ -32,8 +32,8 @@ print(f"I love {names[1].title()}") """
 print(motorcycles)
 popped_motorcycles= motorcycles.pop()
 print(motorcycles)
-print(popped_motorcycles)
- """
+print(popped_motorcycles) """
+
 
 #  inserting Elements into a list :
 """ motorcycles = ['Honda', 'Suzuki', 'BMW']
@@ -121,4 +121,18 @@ print(my_locations) """
 number_guest= len(guest_list)
 print(f"Hello I am invitng {number_guest} people to the party")
  """
- 
+
+#  for loops :
+""" magicians = ['Alice' , 'David' , 'Christian']
+for magician in magicians:
+    # print(magician)
+    print(f"{magician.upper()}, that was a great trick!")
+    print(f"I cant wait to see your next trick, {magician.upper()}.\n")
+print("Thank you everyone")  """ 
+
+
+
+
+
+
+
