@@ -155,3 +155,35 @@ for value in range(1,11,2):
 print(squares)
 print(sum(squares))     """
 
+""" in_list =[]
+for values in range(0,31,3):
+    in_list.append(values)
+print(in_list) """
+#  4-8
+
+""" for value in range(1,11):
+    cubes = value**3
+    print(cubes)
+
+ """
+#  4-9 :
+""" cubes = [value**3 for value in range(1,11)]
+print(cubes)
+ """
+
+#  slicing a list :
+""" players=['Ram','Hira','Sita','Shyam']
+print(players[0:4]) """
+
+#  Looping through a slice
+""" players=['Ram','Hira','Sita','Shyam']
+print("Here are the players of my team:")
+for player in players[:4]:
+    print(player)
+ """
+
+#  
+
+
+
+
