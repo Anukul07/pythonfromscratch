@@ -217,6 +217,18 @@ for my_fav_food in my_foods:
     my_fav_food = my_foods[1:]
 print(f"These are my most favourites{my_fav_food}") """
 
+# 4-13 :
+""" buffet_foods = ('Daal','Bhaat','Icecream')
+for food in buffet_foods:
+    print(f"The items in menu are {food} ")
+buffet_foods = ('Daal','Bhaat','Momo')    
+for foodchange in buffet_foods:
+    print(f"\nChange in menu are as follows {foodchange}")     """
+
+    
+
+
+
 
 
 
