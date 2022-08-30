@@ -130,9 +130,28 @@ for magician in magicians:
     print(f"I cant wait to see your next trick, {magician.upper()}.\n")
 print("Thank you everyone")  """ 
 
+# 4-1
+""" favourite_pizzas = ['Margherita' , 'Pepporoni', 'Cheese']
+for fav_pizzas in favourite_pizzas:
+    print(f"I love {fav_pizzas.upper()} pizza!!")
+print("\nI really love pizzas!")     """
 
+# 4-2
+""" animals = ['Dog' ,'Cat', 'Mouse']
+for animal in animals:
+    # print(animal)
+    print(f"A {animal.title()} would be a great pet")
+print("\nAny of these animals would make a great pet!")    """
 
+# range() function
+""" for numbers in range(1,5):
+    print(numbers)
 
-
-
+value=list(range(1,5))
+print(value) """
+""" squares = []
+for value in range(1,11,2):
+    squares.append(value ** 2)
+print(squares)
+print(sum(squares))     """
 
