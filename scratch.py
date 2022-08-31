@@ -489,6 +489,45 @@ for name in favorite_languages.keys():
     if 'erin' not in favorite_languages.keys():
         print("Erin please take the poll") """
 
-# Looping through all values in a dictionary:
+# 6-4:
+""" rivers_origin = {
+    'nile': 'africa',
+    'amazon': 'brazil',
+    'ganges':'india'
+    }
+for river, country in rivers_origin():
+    print(f"The {river.title()} river runs through {country.title()}") """
+
+# 6-5 :
+""" rivers_origin = {
+    'nile': 'africa',
+    'amazon': 'brazil',
+    'ganges':'india'
+    }
+for river in rivers_origin:
+    print(f"The {river.title()} river") """
+""" rivers_origin = {
+    'nile': 'africa',
+    'amazon': 'brazil',
+    'ganges':'india'
+    }
+for country in rivers_origin.values():
+    print(f"The {country.title()} ") """
+
+#6-6 :
+favorite_languages = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'phil': 'python',
+    } 
+names_1= {'sarah','phil','Alex','Ram'}
+for name in favorite_languages.keys():
+    if name in names_1:
+        language = favorite_languages[name].title()
+        print(f"Thanks for the poll {name.title()} your answer:{language}")
+    if name not in names_1:
+        print(f"Invited to the poll {name.title()} ")
+
 
    
