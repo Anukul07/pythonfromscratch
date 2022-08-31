@@ -515,7 +515,7 @@ for country in rivers_origin.values():
     print(f"The {country.title()} ") """
 
 #6-6 :
-favorite_languages = {
+""" favorite_languages = {
     'jen': 'python',
     'sarah': 'c',
     'edward': 'ruby',
@@ -528,6 +528,9 @@ for name in favorite_languages.keys():
         print(f"Thanks for the poll {name.title()} your answer:{language}")
     if name not in names_1:
         print(f"Invited to the poll {name.title()} ")
+         """
+
+# Nesting :
 
 
    
