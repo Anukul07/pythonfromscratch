@@ -385,8 +385,110 @@ for my_list in my_lists:
         print(f"{my_list}th")   """       
 
 # Dictionaries : 
+""" alien_0 = {'color':'green','points':5}
+print(alien_0['color'])
+print(alien_0['points'])
+new_pts = alien_0['points']
+print(f"you have just earned {new_pts} points")
+ """
+# adding new key-value pairs :
+""" alien_0 = {'color':'green','points':5}
+del alien_0['points'] 
+print(alien_0)
+ """
+# modifying values in a dictionary
+""" alien_0 = {'x_position': 0, 'y_position': 25, 'speed': 'medium'}
+print(f"Original value : {alien_0['x_position']}")
 
+if alien_0['speed'] == 'slow':
+    x_increment = 1
+elif alien_0['speed'] == 'medium':   
+    x_increment = 2
+else:
+    x_increment = 3    
+alien_0['x_position'] = alien_0['x_position'] + x_increment
+print(f"New position :{alien_0['x_position']}")
+ """
+# A dictionary of similar objects:
+""" favorite_languages = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'phil': 'python',
+    }
+language = favorite_languages['sarah'].title() 
+print(f"Sarah's favourite language is {language}") """
 
+# get():
+""" alien_0 = {'color': 'green', 'speed': 'slow'}
+point_value = alien_0.get('temp', )
+print(point_value) """
 
+# 6-1 
+""" brother_sus={
+    'firstname':'Sushant' ,'lastname':'Basnet', 'age':25,
+    'city':'damak'
+    }
+print(brother_sus['firstname'])
+print(brother_sus['lastname'])    
+print(brother_sus['age'])    
+print(brother_sus['city'])     """
 
+# 6-2 
+""" favorite_numbers = {
+    'jen': '7',
+    'sarah': '21',
+    'edward': '33',
+    'phil': '8',
+    }
+person = favorite_numbers['jen']
+print(f"Jen's favourite number is {person}")   
+ """
 
+# looping through dictionaries
+""" user_0 = {
+    'username': 'efermi',
+    'first': 'enrico',
+    'last': 'fermi',
+    }
+for key,value in user_0.items():
+    print(f"\nKey: {key}") 
+    print(f"Value: {value}")
+         """
+""" favorite_languages = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'phil': 'python',
+    }       
+for name,language in favorite_languages.items():
+    print(f"{name.title()}'s favourite language is {language.title()}")
+     """
+    
+#Looping through all the keys in a dictionary:
+""" favorite_languages ={
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'phil': 'python'
+    }
+for name in favorite_languages.keys():  #can also work without keys()
+    print(name.title())   """
+""" favorite_languages ={
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'phil': 'python'
+    }
+friends=['phil','sarah']
+for name in favorite_languages.keys():
+    print(name.title())
+    if name in friends:
+        language = favorite_languages[name].title()
+        print(f"\t{name.title()}, I see you love {language}!")
+    if 'erin' not in favorite_languages.keys():
+        print("Erin please take the poll") """
+
+# Looping through all values in a dictionary:
+
+   
