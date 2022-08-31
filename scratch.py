@@ -225,7 +225,16 @@ buffet_foods = ('Daal','Bhaat','Momo')
 for foodchange in buffet_foods:
     print(f"\nChange in menu are as follows {foodchange}")     """
 
-    
+# IF Statements:
+
+cars =['audi','bmw','mercedes','jaguar']
+for car in cars:
+    if car == 'bmw' :
+        print(car.upper())
+    else:
+        print(car.title())    
+
+
 
 
 
