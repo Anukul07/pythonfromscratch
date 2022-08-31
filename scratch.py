@@ -226,19 +226,51 @@ for foodchange in buffet_foods:
     print(f"\nChange in menu are as follows {foodchange}")     """
 
 # IF Statements:
-
+# checking for equality
+""" 
 cars =['audi','bmw','mercedes','jaguar']
 for car in cars:
     if car == 'bmw' :
         print(car.upper())
     else:
-        print(car.title())    
+        print(car.title())     """
 
+""" car = 'audi'
+car == 'audi'
+print(bool(car)) """
 
+# checking for inequality :
+""" requested_topping = 'Mushroom'
+if requested_topping!= 'anchioves':
+    print("Hold the anchovies!")
+ """
+# numerical comparisons :
 
+""" answer = 17
+if answer !=42 :
+    print("This is it") """
 
+# checking multiple conditions :
+""" answer_1 = 22
+answer_2 = 23
+if answer_1 > 20 and answer_2 > 20 :
+    print("Both are true")
+ """
+#  checking whether a value is in a list :
+""" banned_users = ['Harry','Jack','Knight']
+user= 'Maya'
+if user not in banned_users:
+    print(f"{user} you are invited!")
 
+ """
+# 5-1 :
 
+""" car = 'subaru'
+if car.title() == 'Subaru':
+    print(car == 'subaru')
+    print(car == 'Audi')
+ """
+ 
 
 
 
