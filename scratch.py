@@ -271,6 +271,122 @@ if car.title() == 'Subaru':
     print(car == 'Audi')
  """
  
+""" requested_toppings = ['mushrooms', 'extra cheese']
+if 'mushrooms' in requested_toppings:
+    print("Adding mushrooms.")
+if 'pepperoni' in requested_toppings:
+    print("Adding pepperoni.")
+if'extra cheese' in requested_toppings:
+    print("Adding extra cheese.")
+
+print("\nFinished making your pizza!") """
+
+# 5-3 : 5-4 
+""" alien_color = 'orange'
+if alien_color=='green':
+    print("You just earned 5 points")
+elif alien_color=='red':
+    print("You just earned 15 points")    
+elif alien_color=='orange':
+    print("You just earned 10 points")     """
+
+# 5-6 :
+""" age = 65
+if age < 2:
+    print("The person is a baby")
+elif age>=2 and age<4 :
+    print("The person is a toddler")    
+elif age>=4 and age<13 :
+    print("The person is a kid")
+elif age>=13 and age<20:
+    print("The person is a teenage")
+elif age>=20 and age<65:
+    print("The person is an adult")    
+else:
+    print("The person is an elder")     """
+
+# 5-7 :
+""" favourite_fruits = ['Banana', 'Mango', 'Orange']
+if 'Banana' in favourite_fruits:
+    print("I really like bananas")
+if 'Mango' in favourite_fruits:
+    print('I really like Mangoes')    
+if 'Apple' in favourite_fruits:
+    print('I really like Apple')    
+if 'Orange' in favourite_fruits:
+    print('I really like Oranges')  """   
+
+# checking for a special item in a list:
+""" requested_toppings = ['mushrooms', 'green peppers', 'extra cheese']
+for requested_topping in requested_toppings:
+    if requested_topping == 'green peppers':
+        print(f"Sorry we are out of Green Peppers.")
+    else:
+        print(f"Adding request toppings {requested_topping}") 
+print("\nFinished making your pizza!")           
+ """
+
+# Checking that a list is not empty
+""" requested_toppings = []
+if requested_toppings:
+    for topping in requested_toppings:
+        print(f"Adding {topping}")
+    print("\nFinished making your Pizza!")    
+else:
+    print("Are you sure you want a plain pizza?")     """
+
+# using multiple lists :
+""" available_toppings = ['mushrooms', 'olives', 'green peppers',
+ 'pepperoni', 'pineapple', 'extra cheese']
+requested_toppings = ['mushrooms', 'french fries', 'extra cheese']
+for requested_topping in requested_toppings:
+    if requested_topping in available_toppings:
+        print(f"Adding {requested_topping}.")
+    else:
+        print(f"Sorry we don't have {requested_topping}")    
+print("\nFinished making your pizza!")   """ 
+
+# 5-8 :
+""" usernames = ['Shyam', 'Admin' , 'Hari', 'Gita', 'Sita']
+for username in usernames:
+    if username=='Admin':
+        print(f"Hello {username} would you like to see the report")
+    else :
+        print(f"Hello {username} thank you for logging in again")   
+ """
+#  5-9 : 
+""" usernames = []
+if usernames:
+    for username in usernames:
+        print("We have lot of users")
+else:
+    print("We need to find some users")        
+ """
+# 5-10:
+""" currentusernames = ['Shyam', 'Admin' , 'Hari', 'Gita', 'Sita']
+currentusernames!=['shyam', 'admin' , 'hari', 'gita', 'sita'] 
+new_usernames = ['Jack', 'admin' , 'Dowsey', 'Austin', 'sita']
+for new_username in new_usernames:
+    if new_username in currentusernames:
+        print(f"Sorry the username {new_username} is already taken")
+    else:
+        print(f"The username {new_username} is available")     """
+
+# 5-11 :
+""" my_lists= [*range(1,10)]
+for my_list in my_lists:
+    if my_list== 1:
+        print(f"{my_list}st")
+    elif my_list==2:
+        print(f"{my_list}nd")  
+    elif my_list==3:
+        print(f"{my_list}rd") 
+    else:
+        print(f"{my_list}th")   """       
+
+# Dictionaries : 
+
+
 
 
 
