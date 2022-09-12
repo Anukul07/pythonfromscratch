@@ -54,3 +54,48 @@ print(dirty_dozen[1])
 print(dirty_dozen[1][2])
 print(dirty_dozen[1][3]) """
 
+""" student_heights=input("Input a list of student heights").split()
+for n in range(0, len(student_heights)):
+    student_heights[n] = int(student_heights[n])
+print(student_heights) 
+#sum function by using for loop:
+total_height = 0
+for height in student_heights:
+    total_height+=height
+print(total_height)
+# len function by using for loop 
+number_of_students = 0
+for student in student_heights:
+    number_of_students+=1
+print(number_of_students)    
+ """
+
+# Highest score exercise :
+""" student_scores = input("Input a list of sutndet scores").split()
+for n in range(0, len(student_scores)):
+    student_scores[n]=int(student_scores[n])
+print(student_scores)    
+heighest_score = 0 
+for score in student_scores:
+    if score > heighest_score:
+        heighest_score= score
+
+print(f"The height score of the class is {heighest_score}!")        
+ """
+""" sum_even = 0
+for sum in range(2,101,2):
+    sum_even += sum
+print(sum_even)    
+     """
+
+""" for number in range(1, 101):
+    if number % 3 == 0 and number % 5 == 0:
+        print("Fizzbuzz")
+    elif number % 3 == 0 :
+        print("Fizz")
+    elif number % 5 == 0 :
+        print("Buzz")
+    else: 
+        print(number)          
+ """
+ 
