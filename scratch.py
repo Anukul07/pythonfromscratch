@@ -530,7 +530,150 @@ for name in favorite_languages.keys():
         print(f"Invited to the poll {name.title()} ")
          """
 
-# Nesting :
+# python print(end,sep,format):
+
+""" print("Hello", "World","I","love","you", sep=",")
+print("Hello", "World","I","love","you", sep="\n\n")
+
+a=10
+b=20
+print(a,end=' ')
+print(b) """
+
+""" a ="India"
+b="Mangoes"
+print("{0} loves {1}".format(a,b))
+
+a= 19
+b = 20
+print("You entered %d and %d"%(a,b))
+ """
+# print arguments :
+
+# default argument :
+""" print("Hello {}, your balance is {}.".format("Adam", 230))
+
+#  positional argument :
+print("Hello {0}, your balance is {1}.".format("Adam", 230))
+
+# keyword argument:
+print("Hello {name}, your balance is {blc}.".format(name ="Adam", blc = 230))
+
+# mixed argument :
+print("Hello {0}, your balance is {blc}.".format("Adam", blc = 230)) """
 
 
-   
+# IEEE 754
+""" print(f"{0.1:.60f}")
+print(f"{0.2:.60f}")
+print(f"{0.1+0.2:.60f}")
+print(f"{0.3:.60f}")
+ """
+""" a=1,
+print(type(a))
+
+a=123
+b=complex(a)
+print(b) """
+
+""" import pdb
+
+a = "What is your name"
+b = 15
+pdb.set_trace()
+print(a+b)
+ """
+""" import pdb
+pdb.set_trace()
+def hello():
+    print("ASdasdasdd")
+hello(x)    """ 
+
+# if the given number is divided by 3 then print ("fuzz"), if divided by 5 print "Fz", divided by 3 and 5 both then print"Fizzbuzz"
+
+""" given_number = int(input("Please input any number : "))
+if given_number % 5== 0 and given_number %3 ==0:
+    print("Fizzbuzz")
+elif given_number  % 3 ==0:
+    print("Fuzz")
+elif given_number % 5 ==0:
+    print("Fz")    
+
+ """
+# if user input is 1 then print january , 12 then print december , else print ("the given number is out of the range")
+
+""" user_number = int(input("Please input a number between 1 and 12: "))
+if user_number == 1:
+    print("January")
+elif user_number == 12:
+    print("December")    
+else:
+    print("The given number is out of range")     """
+
+""" user_input1 = int(input("Please input first number"))
+user_input2 = int(input("Please input second number"))
+user_input3 = int(input("Please input third number"))
+
+if user_input1 > user_input2 and user_input1>user_input3:
+    print(f"{user_input1} is the greatest number")
+if user_input2 > user_input1 and user_input2>user_input3:
+    print(f"{user_input2} is the greatest number")   
+if user_input3 > user_input1 and user_input3>user_input2:
+    print(f"{user_input3} is the greatest number")    
+if user_input1 < user_input2 and user_input1<user_input3:
+    print(f"{user_input1} is the smallest number")    
+if user_input2 < user_input1 and user_input2<user_input3:
+    print(f"{user_input2} is the smallest number")    
+if user_input3 < user_input1 and user_input3<user_input3:
+    print(f"{user_input3} is the greatest number")    
+
+ """
+""" 
+user_input = input("Please enter a letter: ")
+if user_input == 'a'or user_input == 'e'or user_input == 'i'or user_input == 'o'or user_input == 'u':
+    print("It is a vowel")
+else:
+    print("It is a consonant")     """
+
+#  if marks is greater than 80 and less than 100 : grade A , less than 80 and greater than 70 : grade B , if less than 70 : pass
+
+""" total_marks = int(input("Please enter the student's marks: "))
+if total_marks >= 80 and total_marks < 100 :
+    print("Grade A")
+elif total_marks >=70 and total_marks < 80 :
+    print("Grade B")    
+else:
+    print("Pass")    """ 
+
+#  accept any city from the user and display monument of the city
+""" 
+any_city = input("Please input any city: ")
+if any_city == 'Kathmandu':
+    print("Monument :A")
+elif any_city == 'delhi':
+    print("Monument: Fort")  
+elif any_city== 'Delhi':
+    print("Monument : Taj")      
+ """
+
+#   write a program to accept two numbers and mathematical operators and perform operation accordingly.
+def add(n1,n2):
+    return n1+n2
+def subtract(n1,n2):
+    return n1-n2
+def multiply(n1,n2):
+    return n1*n2  
+def division(n1,n2):   
+    return n1/n2
+
+operators ={
+             "+":add, "-":subtract, "*": multiply, "/": division  
+            }
+num1 = int(input("Please input first number: ")) 
+for operator in operators:
+    print(operator)
+operation_symbol = input("Please input operator from above")
+num2= int(input("Please input second number: "))    
+calculation = operators[operation_symbol]
+result = calculation(num1,num2)
+print(result)

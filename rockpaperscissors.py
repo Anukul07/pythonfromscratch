@@ -25,7 +25,6 @@ scissors = '''
 ---.__(___)
 '''
 
-#Write your code below this line 👇
 import random 
 game_images = [rock, paper, scissors]
 user_choice = int(input("What do you choose? Type 0 for Rock, 1 for paper and 2 for scissors."))

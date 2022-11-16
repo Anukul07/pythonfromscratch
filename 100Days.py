@@ -10,11 +10,12 @@ if random_Integer == 1:
     print("Heads")
 else:
     print("Tails")    """ 
-
 """ 
+
 import random
 names_string = input("Give me everybody's names, seperated by a comma.")
 names = names_string.split(", ")
+print(f"{names_string}")
 random_number = random.randint(0,5)
 if random_number == 1:
     print(f"{names[0]}, you will have to pay the bill!")
@@ -28,8 +29,8 @@ else:
     print(f"{names[4]}, you will have to pay the bill!")
  """
 
-# picking the person who pays the bill : 
-import random
+# # picking the person who pays the bill : 
+# import random
 """
 names_string = input("Enter the names of people seperated by commas")
 names = names_string.split(", ")
@@ -71,7 +72,7 @@ print(number_of_students)
  """
 
 # Highest score exercise :
-""" student_scores = input("Input a list of sutndet scores").split()
+""" student_scores = input("Input a list of student det scores").split()
 for n in range(0, len(student_scores)):
     student_scores[n]=int(student_scores[n])
 print(student_scores)    
@@ -98,4 +99,16 @@ print(sum_even)
     else: 
         print(number)          
  """
- 
+# functions with more than 1 input :
+""" def greet_with(name,location):
+    print(f"Hello {name}")
+    print(f"What is it like in {location}")
+greet_with("Jack Bauer" , "Nowhere")     """
+
+# keyword arguments :
+""" def greet_with(name,location):
+    print(f"Hello {name}")
+    print(f"What is it like in {location}")
+greet_with(location ="nowhere" , name ="angela")    
+ """
+
